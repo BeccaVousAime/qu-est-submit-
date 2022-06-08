@@ -39,5 +39,15 @@ First off, thank you so much to Jacob and the rest of the team! I know zero to n
 ## Chapter Two   
 ##### Chapter Two - Day One
 
-
-
+<ol>
+ <li><b>Deploy a contract to account 0x03 called "JacobTucker". Inside that contract, declare a constant variable named is, and make it have type String. Initialize it to "the best" when your contract gets deployed.</b>
+<blockquote> 
+<img src = https://github.com/BeccaVousAime/qu-est-submit-/blob/09553780203b2a89f1f8bc29526dca7184f08f9a/Screenshots/Ch2Day1.1.png width="600" height ="600">
+ </blockquote>
+ 
+<li><b>Check that your variable is actually equals "the best" by executing a script to read that variable. Include a screenshot of the output.</b>
+ <blockquote> 
+  <img src = https://github.com/BeccaVousAime/qu-est-submit-/blob/09553780203b2a89f1f8bc29526dca7184f08f9a/Screenshots/Ch2Day1.2.png width="600" height ="600">
+  </blockquote?>
+ </li>
+  </ol>
