@@ -1,5 +1,7 @@
 # Becca's Quest Submissions 🥂
-## Week One - Day One
+
+## Chapter One
+##### Chapter One - Day One
 First off, thank you so much to Jacob and the rest of the team! I know zero to nothing, and what I do know is likely terribly outdated. I look forward to learning a bit, and hopefully this old lady can figure some of it out. ;)
 <ol>
  <li><b>Explain what the Blockchain is in your own words.</b>
@@ -21,7 +23,7 @@ First off, thank you so much to Jacob and the rest of the team! I know zero to n
   </li>
 </ol>
 
-## Week One - Day Two
+##### Chapter One - Day Two
 <ol>
   <li><b>What are the 5 Cadence Programming Language Pillars?</b>
     <blockquote>
@@ -29,6 +31,13 @@ First off, thank you so much to Jacob and the rest of the team! I know zero to n
   </blockquote>
     <li><b>In your opinion, even without knowing anything about the Blockchain or coding, why could the 5 Pillars be useful</b>
       <blockquote>If the smart contracts we deploy using Candence are clear and understandle, it not only allows for a higher degree of trust and transparency for users, but also provides an elevated experience for developers when it comes to writing and debugging their code. 
-        <blockquote>
+        </blockquote>
           </li>
         </ol>
+   
+   
+## Chapter Two   
+##### Chapter Two - Day One
+
+
+
