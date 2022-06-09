@@ -51,3 +51,10 @@ First off, thank you so much to Jacob and the rest of the team! I know zero to n
   </blockquote?>
  </li>
   </ol>
+  
+  ##### Chapter Two - Day Two
+<ol>
+ <li><b>Explain why we wouldn't call changeGreeting in a script.</b>
+  <blockquote>A script is used to view data on the blockchain. </blockquote>
+ </li>
+ </ol>
