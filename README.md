@@ -55,6 +55,13 @@ First off, thank you so much to Jacob and the rest of the team! I know zero to n
   ##### Chapter Two - Day Two
 <ol>
  <li><b>Explain why we wouldn't call changeGreeting in a script.</b>
-  <blockquote>A script is used to view data on the blockchain. </blockquote>
+  <blockquote>A script is used to view data on the blockchain, and cannot be used to modify. ChangeGreeting is a command which will modify the contract, so one must utilize it within a transaction. </blockquote>
+ <li><b>What does the AuthAccount mean in the prepare phase of the transaction?</b>
+  <blockquote>The AuthAccount allows access to the data in an account so I user can sign a transaction. 
+   </blockquote>
+    <li><b>What is the difference between the prepare phase and the execute phase in the transaction?</b>
+     <blockquote>The prepare phase is used to access the data in an account. The execute phase is used to call functions to change data on the blockchain.
+     </blockquote>
+     <li><b>
  </li>
  </ol>
