@@ -64,7 +64,7 @@ First off, thank you so much to Jacob and the rest of the team! I know zero to n
      </blockquote>
  <li><b>This is the hardest quest so far, so if it takes you some time, do not worry! I can help you in the Discord if you have questions.</b>
   <br>
-  <blockquote>Part One</blockquote>
+  <blockquote><b>Part One</b></blockquote>
   
   ```cadence
 pub contract HelloWorld {
@@ -93,7 +93,7 @@ pub contract HelloWorld {
 }
 ```
   <br>
-  <blockquote>Part Two</blockquote>
+  <blockquote><b>Part Two</b></blockquote>
   
   ```cadence
 import HelloWorld from 0x01
@@ -104,7 +104,7 @@ return HelloWorld.myNumber
 }
 ```
 <br>
-  <blockquote>Part Three</blockquote>
+  <blockquote><b>Part Three</b></blockquote>
   
   ```cadence
 import HelloWorld from 0x01
@@ -122,5 +122,7 @@ HelloWorld.updateMyNumber(newNumber: myNewNumber)
  
  </li>
  </ol>
-  <img src="https://github.com/BeccaVousAime/qu-est-submit-/blob/307ee45fc9fb5088de1b961210a7aef1ac7d70bc/Screenshots/Ch2Day2%20Script.png")
+ <blockquote><b>Before and after changing my number**</b></blockquote>
+  <img src="https://github.com/BeccaVousAime/qu-est-submit-/blob/307ee45fc9fb5088de1b961210a7aef1ac7d70bc/Screenshots/Ch2Day2%20Script.png">
+  <img src="Screenshots/Ch2Day2 Script2.png">
 
