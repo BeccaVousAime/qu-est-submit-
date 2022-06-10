@@ -62,6 +62,65 @@ First off, thank you so much to Jacob and the rest of the team! I know zero to n
     <li><b>What is the difference between the prepare phase and the execute phase in the transaction?</b>
      <blockquote>The prepare phase is used to access the data in an account. The execute phase is used to call functions to change data on the blockchain.
      </blockquote>
-     <li><b>
+ <li><b>This is the hardest quest so far, so if it takes you some time, do not worry! I can help you in the Discord if you have questions.</b>
+  <br>
+  <blockquote>Part One</blockquote>
+  
+  ```cadence
+pub contract HelloWorld {
+
+    pub var greeting: String
+    pub var myNumber: Int
+
+
+    init() {
+        self.greeting = "Hello, World!"
+        self.myNumber= 0
+
+    }
+
+    pub fun changeGreeting(greeting: String) {
+        self.greeting = greeting
+    }
+
+    pub fun updateMyNumber(newNumber: Int) {
+        self.myNumber = newNumber
+
+    
+
+
+    }
+}
+```
+  <br>
+  <blockquote>Part Two</blockquote>
+  
+  ```cadence
+import HelloWorld from 0x01
+
+pub fun main(): Int {
+return HelloWorld.myNumber
+
+}
+```
+<br>
+  <blockquote>Part Three</blockquote>
+  
+  ```cadence
+import HelloWorld from 0x01
+
+transaction(myNewNumber: Int) {
+
+prepare(acct: AuthAccount) {}
+
+execute {
+HelloWorld.updateMyNumber(newNumber: myNewNumber)
+
+}
+}
+```
+ 
  </li>
  </ol>
+  <img src="https://github.com/BeccaVousAime/qu-est-submit-/blob/307ee45fc9fb5088de1b961210a7aef1ac7d70bc/Screenshots/Ch2Day2%20Script.png")
+
